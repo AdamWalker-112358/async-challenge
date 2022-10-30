@@ -1,0 +1,35 @@
+{
+  "name": "async-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solution-1.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamWalker-112358/async-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamWalker-112358/async-challenge/issues"
+  },
+  "homepage": "https://github.com/AdamWalker-112358/async-challenge#readme",
+  "nodemonConfig": {
+    "events": {
+      "start": "clear"
+    }
+  },
+  "devDependencies": {
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.20",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dayjs": "^1.11.6"
+  }
+}
